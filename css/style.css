@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+background-image: url("/img/Untitled-2.png");
+}
+header{
+    width: 100%;
+}
+section{
+    width: 100%;
+}
+footer{
+    width: 100%;
+}
+.warpper{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main{
+    width: 100%;
+    background-image: url("/img/Untitled-2.png");
+}
+.box{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: navy;
+    border-radius: 60px;
+    margin: 20px 0px;
+}
+.box li{
+    display: inline;
+    padding: 0 30px;
+    margin: 10px 0;
+}
+.box a {
+    color: white;
+}
+.box a:hover{
+    color: yellow;
+}
+.her-a{
+    width: 100%;
+    display: flex;
+}
+.her-a-left{
+    width: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+.her-a-right{
+    width: 50%;
+    text-align: center;
+}
+.her-a-left button{
+    width: 20%;
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+.her-a-left button:hover{
+    background-color: navy;
+}
+.her-a-left h1{
+    font-size: 55px;
+}
+.her-a-right img{
+    width: 600px;
+}
+.main-a{
+    background-color: white;
+    display: flex;
+    padding: 20px 100px;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+.main-a button{
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    margin: 10px 10px;
+    
+}
+.sec-a{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.sec-a h2{
+    color: orangered;
+}
+.sec-a h1{
+    font-size: 35px;
+}
+.sec-b{
+    width: 100%;
+    display: flex;
+}
+.sec-b-one{
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+}
+.sec-b-two{
+    width: 30%;
+    text-align: center;
+    padding: 20px 0;
+}
+.sec-b-three{
+    width: 30%;
+    text-align: center;
+}
+.sec-b img{
+    width: 150px;
+}
+.sec-b button{
+    width: 30%;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin: 20px 0;
+}
+.sec-b button:hover{
+  background-color: navy;
+}
+.sec-c{
+    width: 100%;
+    display: flex;
+}
+.sec-c-one{
+    width: 33%;
+}
+.sec-c-two{
+    width: 33%;
+    text-align: center;
+    padding: 100px 0;
+}
+.sec-c-three{
+    width: 34%;
+}
+.sec-c img{
+    width: 400px;
+}
+.sec-c button{
+    width: 20%;
+    background-color: aqua;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+.sec-c h2{
+    color: royalblue;
+}
+.sec-c h1{
+    font-size: 35px;
+}
+.sec-d{
+    width: 100%;
+}
+.sec-d img{
+    width: 100%;
+}
+.sec-e{
+    width: 100%;
+    display: flex;
+}
+.sec-e-left{
+    width: 50%;
+    text-align: center;
+    padding: 200px 0;
+}
+.sec-e-right{
+    width: 50%;
+    text-align: center;
+}
+.sec-e button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin: 20px 0;
+    border-radius: 50px;
+}
+.sec-e button:hover{
+    background-color: navy;
+}
+.sec-f button:hover{
+    background-color: navy;
+}
+.sec-e h3{
+    color: orangered;
+}
+.sec-e-right img{
+    width: 500px;
+}
+.sec-e h1{
+    font-size: 40px;
+}
+.sec-f{
+    width: 100%;
+    display: flex;
+}
+.sec-f-left{
+    width: 50%;
+    text-align: center;
+}
+.sec-f-right{
+    width: 50%;
+    padding: 70px 0;
+}
+.sec-f-left img{
+    width: 500px;
+}
+.sec-f button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin: 20px 0;
+    border-radius: 50px;
+}
+.sec-f h3{
+    color: orangered;
+}
+.sec-f h1{
+    font-size: 40px;
+}
+.sec-c button:hover{
+    background-color: orangered;
+}
+.sec-g{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    border-radius: 50px;
+    margin: 50px 0;
+}
+.sec-g-left{
+    width: 50%;
+    text-align: center;
+    padding: 100px 0;
+}
+.sec-g-right{
+    width: 50%;
+    text-align: center;
+}
+.sec-g button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin: 20px 0;
+    border-radius: 50px;
+}
+.sec-g h3{
+    color: navy;
+}
+.sec-g h1{
+    font-size: 40px;
+}
+.sec-g-right img{
+    width: 500px;
+}
+.sec-g button:hover{
+    background-color: navy;
+}
+.sec-h{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-h h2{
+    color: orangered;
+}
+.sec-h h1{
+    font-size: 40px;
+}
+.sec-k{
+    width: 100%;
+    display: flex;
+}
+.sec-k-left{
+    width: 40%;
+    background-color: white;
+    display: flex;
+    margin: 30px 0;
+    border-radius: 50px;
+    position: relative;
+    left: 50px;
+}
+.sec-k-right{
+    width: 40%;
+    background-color: white;
+    display: flex;
+    margin: 30px 0;
+    border-radius: 50px;
+    position: relative;
+    left: 150px;
+}
+.sec-k-left-one{
+    width: 50%;
+    text-align: center;
+}
+.sec-k-left-two{
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-k-left-two i{
+    color: yellow;
+}
+.sec-k-right-one{
+    width: 50%;
+    text-align: center;
+}
+.sec-k-right-two{
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-k-right-two i{
+    color: yellow;
+}
+.sec-j{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    border-radius: 50px;
+   position: relative;
+   left: 200px;
+   margin: 30px 0;
+}
+.sec-j-left{
+    width: 50%;
+    text-align: center;
+}
+.sec-j-right{
+    width: 50%;
+    text-align: center;
+    padding: 30px 0;
+}
+.sec-j-right i{
+    color: yellow;
+}
+.sec-r{
+    width: 100%;
+    background-image: url("/img/Untitled-14.png");
+    text-align: center;
+}
+.sec-r h2{
+    color: orangered;
+}
+.sec-r h1{
+    font-size: 40px;
+}
+.sec-r input{
+    border: none;
+    padding: 10px;
+    width: 30%;
+}
+.sec-r textarea{
+    border: none;
+    padding: 10px;
+    width: 30%;
+}
+.sec-r button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: blueviolet;
+    margin: 30px 0;
+}
+.sec-r button:hover{
+    background-color: brown;
+}
+.foo{
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    padding: 50px 0;
+}
+.foo-left{
+    width: 50%;
+    display: flex;
+}
+.foo-right{
+    width: 50%;
+    text-align: center;
+}
+.foo-left-one{
+    width: 50%;
+    text-align: center;
+}
+.foo-left-two{
+    width: 50%;
+    text-align: center;
+}
+.foo h1{
+    color: white;
+}
+.foo input{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+.foo i{
+    background-color: white;
+    font-size: 30px;
+    padding: 0 10px;
+    margin: 15px 0;
+}
+@media (max-width:1024px) {
+    .sec-b button{
+        width: 40%;
+    }
+    .sec-c button{
+        width: 30%;
+    }
+    .sec-c img{
+        width: 340px;
+    }
+    .her-a-right img {
+        width: 500px;
+    }
+    
+}
+@media (max-width:991px){
+    .sec-e-right img{
+        width: 450px;
+    }
+    .sec-g-right img{
+        width: 450px;
+    }
+    .her-a-right img{
+        width: 450px;
+    }
+}
+@media (max-width:768px){
+    .sec-c{
+        display: block;
+    }
+    .sec-c-one{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-c-two{
+        width: 100%;
+    }
+    .sec-c-three{
+         width: 100%;
+         text-align: center;
+    }
+    .sec-g-right img{
+        width: 350px;
+    }
+    .sec-g button {
+        width: 35%;
+    }
+    .sec-e-right img{
+        width: 370px;
+    }
+    .her-a-right img{
+        width: 370px;
+    }
+    .sec-b button{
+        width: 46%;
+    }
+    .sec-e button{
+        width: 30%;
+    }
+    .sec-f-left img{
+        width: 350px;
+    }
+    .sec-f button{
+        width: 30%;
+    }
+    .sec-k{
+        display: block;
+    }
+    .sec-k-left{
+        width: 100%;
+        left: 0;
+    }
+    .sec-k-right{
+        width: 100%;
+        left: 0;
+    }
+    .sec-j{
+       width: 100%; 
+       left: 0;
+    }
+
+}
+@media (max-width:450px){
+    .box{
+        display: none;
+    }
+    .her-a{
+        display: block;
+    }
+    .her-a-left{
+        width: 100%;
+    }
+    .her-a-right{
+        width: 100%;
+    }
+    .main-a{
+        display: block;
+        padding-bottom: 30px;
+    }
+    .main-a input{
+        padding-bottom: 20px;
+    }
+    .sec-b{
+        display: block;
+    }
+    .sec-b-one{
+        width: 100%;
+    }
+    .sec-b-two{
+        width: 100%;
+    }
+    .sec-b-three{
+        width: 100%;
+    }
+    .sec-e{
+        display: block;
+    }
+    .sec-e-left{
+        width: 100%;
+    }
+    .sec-e-right{
+        width: 100%;
+    }
+    .sec-f{
+        display: block;
+    }
+    .sec-f-left{
+        width: 100%;
+    }
+    .sec-f-right{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-g{
+        display: block;
+    }
+    .sec-g-left{
+        width: 100%;
+    }
+    .sec-g-right{
+        width: 100%;
+    }
+    .sec-r input{
+        width: 50%;
+    }
+    .sec-r textarea{
+        width: 50%;
+    }
+    .sec-r button{
+        width: 40%;
+    }
+    .foo{
+        display: block;
+    }
+    .foo-left{
+        width: 100%;
+    }
+    .foo-right{
+        width: 100%;
+        margin: 30px 0;
+    }
+
+}
